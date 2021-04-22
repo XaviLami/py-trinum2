@@ -1,4 +1,4 @@
-#Trier que les numéros de portable (690) et ne pas faire de doublon, puis re-sortir un fichier csv avec 1 seule colone 
+#Trier que les numéros de portable (690) et ne pas faire de doublon, puis re-sortir un fichier csv avec 1 seule colonne 
 
 #Lecture des numéros du fichier CSV 
 import re
