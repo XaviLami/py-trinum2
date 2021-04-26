@@ -17,13 +17,15 @@ with open('phones.csv', newline='') as csvfile:
         rowSum = row[0]+"\n"+row[1]
         #print(row[0])
        
-        matchesUn = re.search("0590[0-9]*",row[0])
+        matchesUn = re.search("0690[0-9]*",row[0])
 
         
         if matchesUn  :
                # print("Match")  
                 copyList.append(row[0])
-print(copyList)               
+print(copyList)  
+
+
 
 #Tri des numéros   
 
